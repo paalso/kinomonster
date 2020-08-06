@@ -1,13 +1,149 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
-    width: 900px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 900px;
+    overflow: hidden;
 }
 
-.header {
-    background-color: darkslateblue;
+p {
+    padding: 0 0 20px 0;
+    line-height: 1.7em;
+    font-family: 'Times New Roman', serif;
+    font-size: 15px;
+    color: #555555;
 }
+
+h2 {
+    font: normal 200% 'century gothic', arial;
+}
+
+/* FOR DEBUGGING !!! */
+div, nav {
+    /* border: 1px red dotted; */
+}
+
+.main-header {
+    padding: 20px 15px 10px 15px;
+    background-color: darkslateblue;
+    font-family: 'century gothic', arial, sans-serif;
+    /* overflow: hidden; */
+}
+
+.main-header .logo-header,
+.main-header .logo-subheader {
+    font: normal 300% 'century gothic', arial, sans-serif;
+}
+
+.main-header .logo-header{
+    margin-bottom: 6px;
+    font-size: 300%;
+    letter-spacing: 0.1em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-header .logo-subheader{
+    display: block;
+    font-size: 0.9em;
+    color: #999;
+    text-decoration: none;
+}
+
+.main-header nav.main-menu {
+    float: right;
+    width: 80%;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+.main-header .main-menu ul{
+    list-style: none;
+}
+
+.main-header .main-menu li {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.main-header .main-menu li:last-child {
+    margin-right: 0;
+}
+
+.main-header .main-menu a {
+    font: normal 100% 'trebuchet ms', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.main-header .main-menu a:hover {
+    color: #e4ec04;
+}
+
+.main-header .main-menu a.active {
+    color: #aeb002;
+}
+
+.main-content {
+    float: left;
+    width: 71%;
+    padding-top: 35px;
+    /* margin-top: 35px; */
+}
+
+.main-content h2 {
+    margin-bottom: 20px;
+}
+
+.films-block {
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+
+.films-block img {
+    display: block;
+    margin-right: 1%;
+    float: left;
+    width: 24%;
+    border: solid 5px #dad7d5;
+    border-radius: 5px;;
+}
+
+.main-content hr {
+    margin-top: 45px;
+    border: solid 1px #f3f3f3;
+}
+
+.post-item {
+    margin-top: 15px;
+    margin-top: 20px;
+}
+
+.post-item a {
+    text-decoration: none;
+    color: #aeb002;
+}
+
+.post-item h2 {
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: 170%;
+}
+
+.post-item p {
+
+}
+
+.sidebar {
+    float: right;
+    width: 28%;
+}
+/* .main-header .main-menu ul:last-child a{
+    margin-right: 0;
+} */
