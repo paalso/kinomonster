@@ -24,6 +24,12 @@ h2 {
     font: normal 200% 'century gothic', arial;
 }
 
+a {
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
 /* FOR DEBUGGING !!! */
 div, nav {
     /* border: 1px red dotted; */
@@ -92,7 +98,7 @@ div, nav {
 
 .main-content {
     float: left;
-    width: 71%;
+    width: 70%;
     padding-top: 35px;
     /* margin-top: 35px; */
 }
@@ -116,28 +122,29 @@ div, nav {
 }
 
 .main-content hr {
-    margin-top: 45px;
+    /* margin-top: 45px; */
     border: solid 1px #f3f3f3;
 }
 
 .post-item {
-    margin-top: 15px;
-    margin-top: 20px;
+    /* margin-top: 15px;
+    margin-bottom: 1px; */
+    padding-bottom: 25px;
+    /* border: red 1px dotted;
+    background-color: yellow; */
 }
 
 .post-item a {
-    text-decoration: none;
     color: #aeb002;
 }
 
 .post-item h2 {
-    margin-top: 15px;
+    margin-top: 12px;
     font-weight: normal;
-    font-size: 170%;
 }
 
-.post-item p {
-
+.post-item h2 a{
+    font-size: 27px;
 }
 
 .sidebar {
@@ -147,3 +154,31 @@ div, nav {
 /* .main-header .main-menu ul:last-child a{
     margin-right: 0;
 } */
+
+
+
+
+.main-footer {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background-color: darkslateblue;
+    text-align: center;
+}
+
+.main-footer .footer-menu li {
+    display: inline-block;
+}
+
+.main-footer .footer-menu a {
+    color: #a8aa94;
+}
+
+.main-footer .footer-menu a:hover {
+    color: #fff;
+}
+
+.main-footer .copyright {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #a8aa94;
+}
