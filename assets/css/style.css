@@ -22,17 +22,26 @@ p {
     padding: 0 0 20px 0;
     line-height: 1.7em;
     font-family: 'Times New Roman', serif;
-    font-size: 15px;
+    font-size: 16px;
     color: #555555;
 }
 
-h2, h3 {
-    font: normal 200% 'century gothic', arial;
+h1, h2, h2 a {
+    font-weight: normal;
+    font-family: 'century gothic', arial;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2, h2 a {
+    font-size: 1.7rem;
 }
 
 a {
     font-family: 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-decoration: none;
 }
 
@@ -103,7 +112,7 @@ a {
     padding-top: 35px;
 }
 
-.main-content h2 {
+.main-content h1 {
     margin-bottom: 20px;
 }
 
@@ -134,12 +143,8 @@ a {
 }
 
 .post-item h2 {
-    margin-top: 12px;
-    font-weight: normal;
-}
-
-.post-item h2 a{
-    font-size: 27px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .sidebar {
@@ -158,10 +163,9 @@ a {
     border-radius: 5px;
 }
 
-.sidebar-item h3 {
+.sidebar-item h2 {
     margin-bottom: 20px;
     color: #136cb2;
-    font-size: 27px;
 }
 
 .sidebar-item input, .sidebar-item button  {
@@ -191,19 +195,35 @@ outline: none;
 
 .sidebar-item .recover-help a {
     color: #aeb002;
-    font-size: 13px;
+    font-size: 0.85rem;
 }
 
 .sidebar-item a {
     color: #aeb002;
-    font-size: 20px;
+    font-size: 1.25rem;
+}
+
+.sidebar table {
+    width: 100%;
+}
+
+.sidebar table td {
+    padding: 3px;
+}
+
+.sidebar table td.film {
+    width: 85%;
+}
+
+.sidebar table td.rating {
+    text-align: right;
+    color: #555;
+    font-size: 1.2rem;
 }
 
 .news-item p {
-    font-size: 19px;
+    font-size: 1.2rem;
 }
-
-
 
 .main-footer {
     padding-top: 30px;
