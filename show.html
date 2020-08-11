@@ -18,8 +18,8 @@
 			</div>
 			<nav class="main-menu">
 				<ul>
-					<li><a class="active" href="/">Главная</a></li>
-					<li><a href="#">Фильмы</a></li>
+					<li><a href="index.html">Главная</a></li>
+					<li><a class="active" href="#">Фильмы</a></li>
 					<li><a href="#">Сериалы</a></li>
 					<li><a href="#">Рейтинг фильмов</a></li>
 					<li><a href="#">Контакты</a></li>
@@ -30,59 +30,47 @@
 
 	<div class="container">
 		<main class="main-content">
-			<h1>Новые фильмы</h1>
-			<div class="films-block">
-				<a href="#">
-					<img src="assets/img/matrix.png" alt="Matrix">
-				</a>
-				<a href="#">
-					<img src="assets/img/max.png" alt="Mad Max">
-				</a>
-				<a href="show.html">
-					<img src="assets/img/inter.png" alt="Interstellar">
-				</a>
-				<a href="#">
-					<img src="assets/img/cloud.png" alt="Cloud Atlas">
-				</a>
+			<h1>Интерстеллар</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/R5KHoE_8dgo" frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+			<div class="film-info">
+				<span class="label">рейтинг:</span> <span class="value">8.1 / 10</span>
+				<span class="label">год:</span> <span class="value">2014</span>
+				<span class="label">режиссер:</span> <span class="value">Кристофер Нолан</span>
 			</div>
-			<h1>Новые сериалы</h1>
-			<div class="films-block">
-				<a href="#">
-					<img src="assets/img/dead.png" alt="Walking dead">
-				</a>
-				<a href="#">
-					<img src="assets/img/silicon.png" alt="Sicikon Valley">
-				</a>
-				<a href="#">
-					<img src="assets/img/breakingbad.png" alt="Breaking Bad">
-				</a>
-				<a href="#">
-					<img src="assets/img/xfiles.png" alt="Xfiles">
-				</a>
+			<hr>
+
+			<h2>Описание Интерстеллар</h2>
+			<div class="description-film">
+				<img src="assets/img/inter.png" alt="Интерстеллар">
+				<p>
+					Когда засуха приводит человечество к продовольственному кризису, коллектив исследователей и учёных
+					отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени
+					через большое расстояние) в путешествие. Их задача - превзойти прежние ограничения для космических
+					путешествий человека и переселить человечество на другую планету.
+				</p>
 			</div>
-			<section class="posts">
-				<article class="post-item">
-					<hr>
-					<h2><a href="#">Как снимали Интерстеллар</a></h2>
-					<p>
-						45 лет исполнилось Кристоферу Нолану — одному из самых успешных режиссеров нашего времени, чьи
-						работы одинаково любимы как взыскательными критиками, так и простыми зрителями. Фильмом
-						изначально занималась студия Paramount. Когда Кристофер Нолан занял место режиссера, студия
-						Warner Bros., которая выпускала его последние фильмы, добилась участия в проекте.
-					</p>
-					<a href="#">читать</a>
-				</article>
-				<article class="post-item">
-					<hr>
-					<h2><a href="">Актер Том Хенкс поделился впечатлением о фестивале</a></h2>
-					<p>
-						16 февраля в Лондоне состоялась 67-я церемония вручения наград Британской киноакадемии. Леонардо
-						ДиКаприо, Брэд Питт, Анджелина Джоли, Кейт Бланшетт, Хелен Миррен, Эми Адамс, Кристиан Бэйл,
-						Альфонсо Куарон и другие гости и победители премии — в нашем репортаже.
-					</p>
-					<a href="#">читать</a>
-				</article>
-			</section>
+			<hr>
+
+			<div class="revies">
+				<h2>Отзывы об Интерстеллар</h2>
+				<div class="review">
+					<h3 class="review-name">Сергей</h3>
+					<p class="review-text">Отличный фильм, з часа пролетели незаметно</p>
+				</div>
+				<div class="review">
+					<h3 class="review-name">Дмитрий</h3>
+					<p class="review-text">После просмотра Начало, я с нетерпением ждал еще работ от Кристофера Нолана.
+						Интерстеллар меня впечатлил.</p>
+				</div>
+			</div>
+			<form class="send" action="#" method="GET">
+				<input type="text" name="review-name" placeholder="ваше имя"><br>
+				<textarea name="" id=""></textarea><br>
+				<input class="btn" type="submit" value="отправить"><br>
+			</form>
+
 		</main>
 
 		<aside class="sidebar">

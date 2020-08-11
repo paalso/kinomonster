@@ -45,6 +45,11 @@ a {
     text-decoration: none;
 }
 
+.btn:hover {
+    cursor: pointer;
+    box-shadow: none;
+}
+
 .main-header {
     padding: 20px 15px 10px 15px;
     background-color: darkslateblue;
@@ -142,10 +147,89 @@ a {
     color: #aeb002;
 }
 
-.post-item h2 {
+.main-content h2 {
     margin-top: 15px;
     margin-bottom: 20px;
 }
+
+/* styles for show.html main */
+
+.film-info {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.film-info .label {
+    font-size: 1.4rem;
+}
+
+.film-info .value {
+    margin-right: 3%;
+    color: #49945a;
+    font-size: 1.2rem;
+}
+
+.description-film {
+    margin-bottom: 15%;
+}
+
+.description-film p {
+    font-size: 1.2rem;
+    line-height: normal;
+}
+
+.description-film img {
+    float: left;
+    width: 27%;
+    margin-right: 2%;
+    border: solid #dad7d5 5px;
+    border-radius: 5px;
+}
+
+.review { 
+    margin-bottom: 4%;
+}
+
+.review-name {
+    padding: 1%;
+    color: #fff;
+    background-color: #7268ad;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 1.08rem;
+}
+
+.review-text {
+    padding: 2%;
+    font-size: 1.08rem;
+    line-height: normal;
+}
+
+    .send input[type="text"], .send textarea {
+    padding: 1%;
+    width: 100%;
+    margin-bottom: 2%;
+    outline: none;
+    border: 1px solid #c3c3c3;
+}
+
+.send {
+    margin-bottom: 25px;
+}
+
+.send textarea {
+    height: 200px;
+}
+
+.send .btn {
+    padding: 3%;
+    background-color: #7268ad;
+    color: #fff;
+    border-radius: 5px;
+    border: solid 1px #f2f2f2;
+}
+
+/* END OF styles for show.html main */
 
 .sidebar {
     margin-top: 20px;
@@ -154,7 +238,6 @@ a {
 }
 
 .sidebar-item {
-    width: 245px;
     margin-bottom: 16px;
     padding: 5%;
     padding-top: 10%;
