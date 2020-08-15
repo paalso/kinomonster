@@ -43,6 +43,7 @@ a {
     font-family: 'Times New Roman', serif;
     font-size: 1.25rem;
     text-decoration: none;
+    color: #aeb002;
 }
 
 .btn:hover {
@@ -143,10 +144,6 @@ a {
     padding-bottom: 25px;
 }
 
-.post-item a {
-    color: #aeb002;
-}
-
 .main-content h2 {
     margin-top: 15px;
     margin-bottom: 20px;
@@ -205,10 +202,13 @@ a {
     line-height: normal;
 }
 
-    .send input[type="text"], .send textarea {
+    .send input[type="text"],
+    .send input[type="email"],
+    .send textarea {
     padding: 1%;
     width: 100%;
     margin-bottom: 2%;
+    color: #5d5d5d;
     outline: none;
     border: 1px solid #c3c3c3;
 }
@@ -230,6 +230,88 @@ a {
 }
 
 /* END OF styles for show.html main */
+
+/* styles for contacts.html main */
+
+.main-content .welcome-review {
+    font-size: 1.2rem;
+}
+
+/* END OF styles for contacts.html main */
+
+/* styles for films.html main */
+
+.film-item {
+    margin-bottom: 5%;
+    background-color: #f9f9f9;
+    padding: 5%;
+    overflow: hidden;   /* МАГИЯ! */
+}
+
+.film-item img {
+    float: left;
+    width: 27%;
+    margin-right: 2%;
+    border: solid #dad7d5 5px;
+    border-radius: 5px;
+}
+
+.film-item p {
+    height: 203px;
+    font-size: 1.2rem;
+    line-height: normal;
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    -webkit-box-orient: vertical;
+    overflow: hidden;           /* МАГИЯ! */
+    /* text-overflow: ellipsis; */
+}
+
+.film-item a.btn {
+    display: block;
+    float: right;
+    margin-top: 5%;
+    padding: 2%;
+    background-color: #7268ad;
+    font-size: 0.9rem;
+    color: #fff;
+    border-radius: 5px;
+    border: solid 1px #f2f2f2;
+    /* clear: both; */
+}
+
+/* END OF styles for films.html main */
+
+/* styles for rating.html main */
+    .ratings-table {
+        width: 100%;
+        border: #f4f4f4 red solid;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .ratings-table th, .ratings-table td {
+        padding: 2%;
+        border: #f4f4f4 red solid;
+    }
+
+    .ratings-table th,
+    .ratings-table .film-rating {
+        color: #555;
+        font-weight: bold;
+
+    }
+
+    .ratings-table img {
+        width: 60px;
+    }
+
+    .ratings-table .film-name {
+        text-align: left;
+    }
+/* END OF styles for rating.html main */
+
 
 .sidebar {
     margin-top: 20px;
@@ -277,12 +359,10 @@ outline: none;
 }
 
 .sidebar-item .recover-help a {
-    color: #aeb002;
     font-size: 0.85rem;
 }
 
 .sidebar-item a {
-    color: #aeb002;
     font-size: 1.25rem;
 }
 
