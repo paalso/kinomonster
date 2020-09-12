@@ -412,3 +412,44 @@ outline: none;
     font-size: 20px;
     color: #a8aa94;
 }
+
+/* CSS Mobile */
+/*
+@media only screen
+and (max-device-width: 568px) {
+
+    div {
+        border: 1px red dotted;
+    }
+
+    .main-footer,
+    .sidebar {
+        display: none;
+    }
+
+    .container, 
+    .logo, .logo-header, .logo-subheader {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-header {
+        background-color: #257965;
+    }
+
+    .main-header .logo-header {
+        font-size: 250%;
+    }
+
+    .main-header .logo-subheader {
+        font-size: 100%;
+        color: #fff;
+    }
+
+    h2, h2 a {
+        color: red;
+        font-size: 120%;
+    }
+
+}
+*/
