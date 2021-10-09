@@ -3,6 +3,10 @@ Sample project for Udemy course "Изучите HTML и CSS за несколь�
 
 [Course Link](https://www.udemy.com/course/html-css-course/)
 
+[GitHub Pages Link](https://paalso.github.io/kinomonster/index.html)
+
+https://paalso.github.io/kinomonster/
+
 #### Несколько личных замечаний:
 Т.к. занялся изучением JavaScript, решил освежить знания по верстке
 
